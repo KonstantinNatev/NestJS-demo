@@ -3,9 +3,9 @@ import {
   NestInterceptor,
   ExecutionContext,
   CallHandler,
-} from '@nestjs/common';
-import { plainToClass } from 'class-transformer';
-import { map, Observable } from 'rxjs';
+} from "@nestjs/common";
+import { plainToClass } from "class-transformer";
+import { map, Observable } from "rxjs";
 
 interface ClassConstructor {
   new (...args: any[]): object;
